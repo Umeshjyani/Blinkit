@@ -1,0 +1,103 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    margin: 50px 50px 10px 50px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.search{
+    padding: 10px 10px;
+    width: 100%;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.Search img{
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+.Search{
+    position: relative;
+}
+.btn{
+    background-color: green;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*---------------section 1-------------- */
+.container{
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    padding: 10px 0px;
+    overflow: auto;
+}
+.imgs{
+    width: 100%;
+}
+
+/* ---------section2------- */
+.section2{
+    display: flex;
+    gap: 10px;
+}
+.section2 img{
+    width: 30%;
+}
+
+/* --------section3------ */
+.section3{
+    display: flex;
+}
+.section3 img{
+    width: 10%;
+}
+
+/* -------section4 ----- */
+.section4{
+    display: flex;
+    gap: 10px;
+}
+.section4 img{
+    width: 13%;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    padding: 10px;
+}
+.card img{
+    width: 110%;
+    width: 100%;
+}
+.cardpb{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.cardbtn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color: lightgreen;
+}
+.paddingb{
+    padding-bottom: 50px;
+}
