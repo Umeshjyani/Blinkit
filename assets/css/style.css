@@ -101,3 +101,8 @@
 .paddingb{
     padding-bottom: 50px;
 }
+/* --------footer----- */
+.footer{
+    padding: 40px 40px 100px 40px;
+    text-align: center;
+}
